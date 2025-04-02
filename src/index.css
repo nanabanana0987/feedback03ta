@@ -2,4 +2,15 @@
 
 @theme {
     --color-very-dark-blue: #131518;
+    --color-dark-blue: #262E38;
+    --color-light-grey: #969FAD;
+    --color-medium-grey: #7c8798;
+
+    --font-overpass: "Overpass", "sans-serif"
+}
+
+@layer utilities {
+    .bg-gradient-dark{
+        background-image: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    }
 }
